@@ -19,7 +19,7 @@ export class SearchPage extends BasePage {
 
     searchText (text) {
         this.searchField.sendKeys(text)
-        browser.wait(this.EC.visibilityOf(this.searchResult.first()), 5000);
+        browser.wait(this.EC.visibilityOf(this.movieCards.first()), 5000);
         expect(this.searchField.getAttribute('ng-reflect-model')).toContain(text, `Check a text in the search field`)
         this.goButton.click()
     }

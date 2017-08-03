@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501613164635" stop="1501613167865">
+	<name>Basic tests</name>
+	<title>Basic tests</title>
+	<test-cases>
+		<test-case start="1501613164636" stop="1501613165055" status="passed">
+			<name>Main page Title</name>
+			<title>Main page Title</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613165055" stop="1501613165479" status="passed">
+			<name>Search field is available</name>
+			<title>Search field is available</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613165480" stop="1501613165896" status="passed">
+			<name>Search field default text</name>
+			<title>Search field default text</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613165896" stop="1501613166438" status="passed">
+			<name>Upcoming movies</name>
+			<title>Upcoming movies</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613166438" stop="1501613166971" status="passed">
+			<name>Popular series</name>
+			<title>Popular series</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613166971" stop="1501613167865" status="passed">
+			<name>Main page - Popular series - Main page</name>
+			<title>Main page - Popular series - Main page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -36,7 +36,6 @@ describe('Basic tests', function () {
     })
 
     it('Popular series', function () {
-
         expect(searchPage.popularSeriesLink.isDisplayed()).toBeTruthy()
         element(searchPage.popularSeriesLink.click())
         browser.wait(EC.visibilityOf(searchPage.popularSeriesLink), 5000);

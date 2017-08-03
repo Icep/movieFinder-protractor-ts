@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501613149078" stop="1501613164631">
+	<name>Search test</name>
+	<title>Search test</title>
+	<test-cases>
+		<test-case start="1501613149078" stop="1501613150153" status="passed">
+			<name>1 test - general positive</name>
+			<title>1 test - general positive</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613150154" stop="1501613151222" status="passed">
+			<name>2 test - capital positive</name>
+			<title>2 test - capital positive</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613151223" stop="1501613152265" status="passed">
+			<name>3 test - mix capital positive</name>
+			<title>3 test - mix capital positive</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613152266" stop="1501613153273" status="passed">
+			<name>4 test - numbers</name>
+			<title>4 test - numbers</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613153273" stop="1501613153938" status="passed">
+			<name>5 test - symbols</name>
+			<title>5 test - symbols</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613153938" stop="1501613154552" status="passed">
+			<name>6 test - one space</name>
+			<title>6 test - one space</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613154552" stop="1501613155155" status="passed">
+			<name>7 test - empty field</name>
+			<title>7 test - empty field</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613155156" stop="1501613155949" status="passed">
+			<name>8 test - different languages </name>
+			<title>8 test - different languages </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613155949" stop="1501613162975" status="passed">
+			<name>9 test - long string - max number of letters 2000</name>
+			<title>9 test - long string - max number of letters 2000</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613162975" stop="1501613164086" status="passed">
+			<name>10 test - short string - min number of letters</name>
+			<title>10 test - short string - min number of letters</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613164086" stop="1501613164631" status="passed">
+			<name>11 test - submit/click</name>
+			<title>11 test - submit/click</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

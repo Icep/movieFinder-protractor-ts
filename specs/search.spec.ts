@@ -6,7 +6,8 @@ describe('Search test', function () {
     let EC = protractor.ExpectedConditions;
 
     beforeEach(() => {
-        searchPage.open();
+        searchPage.open()
+        browser.driver.manage().window().maximize()
     })
 
     afterEach(() => {
@@ -29,11 +30,8 @@ describe('Search test', function () {
 
     it('1 test - general positive', function () {
         searchPage.searchText(test_1.query)
-        //browser.wait(EC.visibilityOf(searchPage.movieCards.last()), 5000);
         browser.wait(EC.visibilityOf(searchPage.searchResult.last()), 5000);
-        //browser.sleep(2000)
         expect(searchPage.searchResult.count()).toBeGreaterThan(0, 'Amount of search result should be greater than 0')
-
         searchPage.searchResultTitle.each(function (elem, indx) {
             expect(elem.getText().then((text) => text.toLowerCase())).toContain(test_1.result)
         })
@@ -53,7 +51,6 @@ describe('Search test', function () {
         searchPage.searchText(test_3.query)
         browser.wait(EC.visibilityOf(searchPage.searchResult.last()), 5000);
         expect(searchPage.searchResult.count()).toBeGreaterThan(0, 'Amount of search result should be greater than 0')
-
         searchPage.searchResultTitle.each(function (elem, indx) {
             expect(elem.getText()).toContain(test_3.result)
         })
@@ -63,7 +60,6 @@ describe('Search test', function () {
         searchPage.searchText(test_4)
         browser.wait(EC.visibilityOf(searchPage.searchResult.last()), 5000);
         expect(searchPage.searchResult.count()).toBeGreaterThan(0, 'Amount of search result should be greater than 0')
-
         searchPage.searchResultTitle.each(function (elem, indx) {
             expect(elem.getText()).toContain(test_4)
         })
@@ -95,7 +91,6 @@ describe('Search test', function () {
         searchPage.searchText(test_8.query)
         browser.wait(EC.visibilityOf(searchPage.searchResult.last()), 5000);
         expect(searchPage.searchResult.count()).toBeGreaterThan(0, 'Amount of search result should be greater than 0')
-
         searchPage.searchResultTitle.each(function (elem, indx) {
             expect(elem.getText()).toContain(test_8.result)
         })

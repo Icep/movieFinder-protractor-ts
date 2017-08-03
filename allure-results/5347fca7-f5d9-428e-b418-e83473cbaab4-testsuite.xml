@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501613121637" stop="1501613126574">
+	<name>Category test</name>
+	<title>Category test</title>
+	<test-cases>
+		<test-case start="1501613121637" stop="1501613122355" status="passed">
+			<name>Numbers of categories</name>
+			<title>Numbers of categories</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613122357" stop="1501613123003" status="passed">
+			<name>List of categories check</name>
+			<title>List of categories check</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613123003" stop="1501613125947" status="passed">
+			<name>Category names check</name>
+			<title>Category names check</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613125947" stop="1501613126574" status="passed">
+			<name>Selection of categories</name>
+			<title>Selection of categories</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

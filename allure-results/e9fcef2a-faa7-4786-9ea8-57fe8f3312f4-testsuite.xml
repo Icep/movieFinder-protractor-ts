@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501613116195" stop="1501613121633">
+	<name>Actor tests -</name>
+	<title>Actor tests -</title>
+	<test-cases>
+		<test-case start="1501613116196" stop="1501613118440" status="passed">
+			<name>Actor name</name>
+			<title>Actor name</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613118440" stop="1501613119397" status="passed">
+			<name>Actor Birthday</name>
+			<title>Actor Birthday</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613119398" stop="1501613120150" status="passed">
+			<name>Actor place of birth</name>
+			<title>Actor place of birth</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613120150" stop="1501613120897" status="passed">
+			<name>Actor popularity</name>
+			<title>Actor popularity</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1501613120897" stop="1501613121633" status="passed">
+			<name>Actor movies</name>
+			<title>Actor movies</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -12,12 +12,13 @@
     "tscw": "tsc -w"
   },
   "dependencies": {
-    "@types/node": "^7.0.18",
     "@types/jasmine": "2.5.35",
-    "typescript": "^2.3.2",
-    "protractor": "^5.1.1",
+    "@types/node": "^7.0.18",
+    "jasmine-allure-reporter": "^1.0.1",
+    "jasmine-reporters": "^2.2.1",
     "jasmine2-reporter": "^0.3.0",
-    "jasmine-reporters": "^2.2.1"
+    "protractor": "^5.1.1",
+    "typescript": "^2.3.2"
   },
   "devDependencies": {
     "protractor-element-extend": "^2.0.2"

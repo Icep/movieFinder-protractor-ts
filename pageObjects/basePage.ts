@@ -4,7 +4,6 @@ import { BaseFragment, BaseArrayFragment } from 'protractor-element-extend'
 export class BasePage {
     public URL
 
-
     open() {
         browser.get(this.URL)
 
